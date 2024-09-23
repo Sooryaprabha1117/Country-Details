@@ -1,0 +1,85 @@
+/* CountryInformation.css */
+
+body{ 
+	padding: 0; 
+	margin: 0; 
+	box-sizing: border-box; 
+	min-height: 100vh; 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	font-family: 'Noto Sans Mono', monospace; 
+	background-color:#CFBAE1;
+} 
+
+.container { 
+	width: 80%; 
+	margin: 5px; 
+	width: calc(100% - 10px); 
+	padding: 30px; 
+	border-radius: 10px; 
+	box-sizing: border-box; 
+	background: #FFA9A3; 
+	box-shadow: 3px 2px 23px -1px rgba(0,0,0,0.57); 
+} 
+
+input { 
+	padding: 10px; 
+	border: 1px solid #030303; 
+	border-radius: 5px; 
+	outline: none; 
+	font-size: 14px; 
+	width: calc(100% - 125px); 
+} 
+input::placeholder{
+    font-weight: 200;
+}
+#search-btn { 
+	padding: 10px 20px; 
+	outline: none; 
+	border: 1px solid #070707; 
+	margin: 9px; 
+	border-radius: 4px; 
+	cursor: pointer; 
+	background: #DD2D4A; 
+	color: #ffffff; 
+	font-size: 16px; 
+    font-weight: 600;
+	transition: all 0.5s; 
+} 
+
+#search-btn:hover{ 
+	background-color:#9A031E; 
+} 
+
+#result img{ 
+	width: 298px; 
+	margin-top: 10px; 
+   
+	height: 190px; 
+	border: 1px solid #070707; 
+
+} 
+
+#result h2{ 
+	margin-top: 27px; 
+    color: #be0426;
+} 
+
+.dataRow{ 
+	text-align: left; 
+    color: #e60127;
+} 
+
+.dataRow h4{ 
+	margin: 0; 
+	font-size: 15px; 
+    color: #5f0213;
+} 
+
+.dataRow span{ 
+	display: block; 
+	margin-bottom: 10px; 
+	font-size: 13px; 
+	max-width: 300px; 
+}
