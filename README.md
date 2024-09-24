@@ -1,4 +1,4 @@
-# Country Detail Showing
+# Country Data Hub
 
 This project is a React application that displays detailed information about any country entered by the user. It uses the REST Countries API to fetch data such as the flag, capital, continent, population, currency, borders, and more.
 
